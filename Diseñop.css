@@ -1,0 +1,140 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-image: url('imagen/olas.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center 89%;
+    background-color: rgb(18, 137, 167);
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px; 
+    margin-bottom: 1px; 
+    color: white; 
+    background-color: rgb(110, 178, 187, 0.8); 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(41, 41, 128); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px; 
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white; 
+    font-size: 1em;
+
+}
+#subrayado {
+    text-decoration: underline;
+}
+.enlaces {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin: 20px 0; 
+}
+
+.enlaces a {
+    color: rgb(255, 247, 234); 
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 5px; /* Bordes redondeados*/
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo translúcido*/
+}
+
+.enlaces a:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo más claro al pasar el mouse */
+}
+
+
+#tarjetadeinfo {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: rgb(110, 178, 187, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el subrrayado <mark> dentro de la tarjeta de presentación*/
+.card-body mark {
+    background-color: darkturquoise;
+    color: white;
+    font-weight: bold;
+}
+
+
+#estudios {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: rgb(110, 178, 187, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(110, 178, 187);
+}
+
+#explaboral {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: rgb(110, 178, 187, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(110, 178, 187);
+    
+}
+
+
+#idiomas {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: rgb(110, 178, 187, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(110, 178, 187);
+}
+
+#infocontacto {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: rgb(110, 178, 187, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(110, 178, 187);
+}
+
+h3 {
+    font-size: 18px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: rgb(255, 247, 234);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px; 
+    margin-top: 20px; 
+    bottom: 0;
+    width: 100%; 
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); 
+}
