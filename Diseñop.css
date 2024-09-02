@@ -138,3 +138,56 @@ footer {
     width: 100%; 
     box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); 
 }
+/* Añado Media Queries para Responsividad */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; 
+    }
+
+    h2 {
+        font-size: 1.2em; 
+    }
+
+    p {
+        font-size: 0.9em; 
+        margin: 0 10px;
+    }
+
+    .enlaces {
+        gap: 10px; 
+    }
+
+    .enlaces a {
+        padding: 8px 15px; 
+    }
+
+    .card, #estudios, #explaboral, #idiomas, #infocontacto {
+        width: 90%; 
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    .enlaces a {
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+
+    .card, #estudios, #explaboral, #idiomas, #infocontacto {
+        width: 95%;
+        padding: 10px;
+    }
+}
